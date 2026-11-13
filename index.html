@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Edriane Gideon | Web Developer & Designer Portfolio</title>
+<meta name="description" content="Portfolio of Edriane Gideon, a student web developer and designer. Projects, certificates, skills and contact details.">
+<meta name="author" content="Edriane Gideon">
+<meta property="og:title" content="Edriane Gideon | Portfolio">
+<meta property="og:description" content="Student web developer and designer building clean, responsive websites.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header>
+  <nav class="wrap" aria-label="Main">
+    <a class="brand" href="#top" aria-label="Edriane Gideon, home">
+      <svg viewBox="0 0 40 40" role="img" aria-label="EG monogram logo"><rect width="40" height="40" rx="9" fill="#7C3AED"/><text x="20" y="27" text-anchor="middle" font-family="Syne,Arial,sans-serif" font-weight="800" font-size="19" fill="#09090F">EG</text></svg>
+      Edriane Gideon
+    </a>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certificates">Certificates</a></li>
+      <li><a href="#plan">Updates</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="hero" id="top">
+    <div class="wrap">
+      <h1><span>Edriane</span><span>Gideon</span></h1>
+      <p>Web developer and designer. I build websites people enjoy using.</p>
+      <div class="btns">
+        <a class="btn dark" href="#projects">See my projects</a>
+        <a class="btn line" href="#contact">Get in touch</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="marq" aria-hidden="true"><div class="track"><span>MDTRM PRJCT</span><span>PORTFOLIO</span><span>EMERGING TECHNOLOGY DCIT 26</span><span>BSCS 3-3</span><!-- this group of four repeats 6 times in the file for a seamless loop --></div></div>
+
+  <section id="about">
+    <div class="wrap about">
+      <div>
+        <h2>About me</h2>
+        <p>I'm Edriane Gideon, a 21-year-old student and a simple guy who wants to fulfill his dreams and succeed in life in the name of Jesus Christ.</p>
+        <p>I care about layouts that are clear, fast and easy to use on any screen. I'm looking for [internship / freelance work / a first role] where I can keep learning and ship real projects.</p>
+      </div>
+      <ul class="skills" aria-label="Skills">
+        <li><strong>Front-end</strong><span>HTML, CSS (Flexbox, Grid), JavaScript. Used in all three projects below.</span><i class="bar" style="--w:90%"></i></li>
+        <li><strong>Design</strong><span>Figma wireframes, color systems, typography. Used in the Café Menu project.</span><i class="bar" style="--w:75%"></i></li>
+        <li><strong>Tools</strong><span>Git and GitHub, VS Code, Chrome DevTools. Every project is version controlled.</span><i class="bar" style="--w:80%"></i></li>
+        <li><strong>Soft skills</strong><span>Teamwork, clear writing, meeting deadlines. Led a team of 4 on the capstone.</span><i class="bar" style="--w:85%"></i></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="wrap">
+      <h2>Projects &amp; Certificates</h2>
+      <div class="filters" role="group" aria-label="Filter projects"><button data-f="all" aria-pressed="true">All</button><button data-f="design" aria-pressed="false">Design</button><button data-f="app" aria-pressed="false">Apps</button><button data-f="team" aria-pressed="false">Team</button></div>
+      <div class="grid" id="pg">
+        <article class="card">
+          <img alt="Placeholder preview of the Café Menu website in purple" src="Images/Cafe menu.jpeg" width="320" height="180" loading="lazy">
+          <div class="body">
+            <h3>Café Menu Website</h3>
+            <p><b>Problem:</b> a local café had a menu only on paper. <b>What I did:</b> designed and built a mobile-first menu site with filterable categories. <b>Result:</b> [e.g. customers can view the menu from a QR code].</p>
+            <ul class="tags"><li>HTML</li><li>CSS Grid</li><li>JavaScript</li></ul>
+            <a href="#" aria-label="View Café Menu Website live">View live site</a>
+          </div>
+        </article>
+        <article class="card">
+          <img alt="Placeholder preview of the Study Planner app in lilac" src="Images/Planner App.jpeg" width="320" height="180" loading="lazy">
+          <div class="body">
+            <h3>Study Planner App</h3>
+            <p><b>Problem:</b> classmates kept missing deadlines. <b>What I did:</b> built a to-do and deadline tracker that saves tasks in the browser. <b>Result:</b> [e.g. used by 20 classmates].</p>
+            <ul class="tags"><li>JavaScript</li><li>LocalStorage</li><li>Flexbox</li></ul>
+            <a href="#" aria-label="View Study Planner App live">View live site</a>
+          </div>
+        </article>
+        <article class="card">
+          <img alt="Blood Aid App Invoker tech" src="Images/Blood aid.jpeg" width="320" height="180" loading="lazy">
+          <div class="body">
+            <h3>Capstone Team Site</h3>
+            <p><b>Problem:</b> our team needed a public home for our capstone research. <b>What I did:</b> led 4 teammates, planned the pages and wrote most of the front-end. <b>Result:</b> [e.g. presented to the faculty panel].</p>
+            <ul class="tags"><li>Git</li><li>Teamwork</li><li>SEO</li></ul>
+            <a href="#" aria-label="View Capstone Team Site live">View live site</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="certs" id="certificates">
+        <h3>Certificates</h3>
+        <p>Recognitions from the DICT Philippine Startup Challenge. Select a certificate to view it larger.</p>
+        <div class="grid">
+          <article class="card cert">
+            <button class="zoom" type="button" aria-label="View the Certificate of Appreciation larger"><img alt="Certificate of Appreciation awarded to Edriane Gideon Tuscano Giba as resource speaker at Startup 101 Techbridge, June 19, 2023" src="Images/Certificate 1.jpeg" width="1100" height="825" loading="lazy"><span>View larger</span></button>
+            <div class="body">
+              <h3>Certificate of Appreciation</h3>
+              <p class="meta">UMWAD Western Visayas · June 19, 2023</p>
+              <p>Recognized as a resource speaker at <b>Startup 101 Techbridge: Empowering Startups and Safeguarding Ideas</b>, held at Aklan State University, Kalibo. Also acknowledged as a 2nd place winner of the DICT Philippine Startup Challenge Regional Competition.</p>
+            </div>
+          </article>
+          <article class="card cert">
+            <button class="zoom" type="button" aria-label="View the Certificate of Recognition larger"><img alt="DICT Certificate of Recognition awarded to Edriane Gideon Tuscano Giba for 2nd place with Blood Aid, October 28, 2022" src="Images/Certificate 2.jpeg" width="1100" height="825" loading="lazy"><span>View larger</span></button>
+            <div class="body">
+              <h3>Certificate of Recognition</h3>
+              <p class="meta">DICT Region 6 · October 28, 2022</p>
+              <p>Member of the <b>Blood Aid</b> team that won <b>2nd place</b> in the Philippine Startup Challenge 7 Regional Pitching Competition for Region VI, held on October 27, 2022.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="plan">
+    <div class="wrap">
+      <h2>Update plan</h2>
+      <p style="max-width:62ch;color:var(--muted);margin-top:0">This site is a living portfolio. Here is how I keep it current.</p>
+      <ol class="road">
+        <li><strong>After every finished project or award</strong><br>Add a new project card or certificate with my role, the tools used and a link.</li>
+        <li><strong>Every month</strong><br>Check that all links work, then update the skills list with anything new I've learned.</li>
+        <li><strong>Every semester</strong><br>Rewrite the About section, refresh the design if needed and re-test on Chrome, Safari, Firefox and Edge.</li>
+        <li><strong>Ongoing</strong><br>Run Lighthouse to keep speed, accessibility and SEO scores high.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="wrap">
+      <h2>Let's work together</h2>
+      <p>Have an opportunity, a project idea or feedback on my work? Send me a message and I'll reply within two days.</p>
+      <form class="form" id="cf"><label>Your name<input name="n" required autocomplete="name"></label><label>Message<textarea name="m" rows="4" required></textarea></label><button class="btn" type="submit">Send message</button></form>
+      <div class="links">
+        <a href="https://github.com/">GitHub</a>
+        <a href="https://www.linkedin.com/">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<dialog id="lb" aria-label="Certificate preview"><button class="close" type="button">Close</button><img alt="" src="images/cert-appreciation-2023.jpg"></dialog>
+<footer><div class="wrap">© 2026 Edriane Gideon. Built with HTML, CSS and JavaScript.</div></footer>
+<script src="script.js" defer></script>
+</body>
+</html>
